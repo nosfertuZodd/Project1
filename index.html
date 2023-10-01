@@ -15,20 +15,20 @@
     <header>
         <nav>
             <img src="" alt="My Logo">
-            <ul>
+            <ul class="menu" id="menu-list">
                 <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Feedback</a></li>
               </ul>
-              <i class="fas fa-bars"></i>
+              <i class="fas fa-bars menu-btn" id="btn-toggle"></i>
 <!--
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
               
             </label>
-            <label class="logo">My Logo</label>
+            <label class="logo">My Logo</label
             -->
             
           </nav>
@@ -47,7 +47,7 @@
                 <li><i class="fa-brands fa-twitter"></i></li>
                 
             </ul>
-
+           
         </section>
 
 
@@ -207,6 +207,25 @@
 
         </section>
     </main>
-    
+    <footer>
+        <ul>
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-angellist"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+    </footer>
+
+
+    <script>    
+
+    var menuToggle = document.getElementById('#btn-toggle');
+
+    menuToggle.addEventListener('click',() =>{
+        document.getElementById('#menu-list').classList.toggle('menu');
+    },false);
+
+    </script>
+     
 </body>
 </html>
