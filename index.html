@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="mystyle.css">
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
@@ -22,7 +21,7 @@
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Feedback</a></li>
               </ul>
-              <i class="fas fa-bars menu-btn" id="btn-toggle"></i>
+              <i class="fa fa-bars"></i>
 <!--
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
@@ -41,10 +40,10 @@
             <h2>I am a Software developer</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cum aut, laudantium expedita impedit illo, vero aliquid beatae dolorum voluptatem placeat soluta vel tenetur numquam! A reiciendis provident ipsa rerum?</p>
             <ul>
-                <li><i class="fa-brands fa-github"></i></li>
-                <li><i class="fa-brands fa-linkedin-in"></i></li>
-                <li><i class="fa-brands fa-angellist"></i></li>
-                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa fa-brands fa-github"></i></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></li>
+                <li><i class="fa fa-brands fa-angellist"></i></li>
+                <li><i class="fa fa-brands fa-twitter"></i></li>
                 
             </ul>
            
@@ -208,6 +207,8 @@
         </section>
     </main>
     <footer>
+        <hr>
+
         <ul>
             <li><i class="fa-brands fa-github"></i></li>
             <li><i class="fa-brands fa-linkedin-in"></i></li>
@@ -215,17 +216,6 @@
             <li><i class="fa-brands fa-twitter"></i></li>
         </ul>
     </footer>
-
-
-    <script>    
-
-    var menuToggle = document.getElementById('#btn-toggle');
-
-    menuToggle.addEventListener('click',() =>{
-        document.getElementById('#menu-list').classList.toggle('menu');
-    },false);
-
-    </script>
      
 </body>
 </html>
