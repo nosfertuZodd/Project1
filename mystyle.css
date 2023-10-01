@@ -43,7 +43,7 @@ main section h1{
 }
 
 main section:nth-child(2){
-    
+    /*background:red; */
 }
 main section:nth-child(2) h2{
     text-align: center;
