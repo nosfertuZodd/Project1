@@ -5,3 +5,13 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background: rgb(43, 43, 170);
+    height: 80px;
+    width: 100%;
+}
